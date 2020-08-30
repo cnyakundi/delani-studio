@@ -1,29 +1,25 @@
-body {
-    font-family: 'Bebas Neue', cursive;
-}
 
 .landing-page { 
     position: relative; 
     width: 100%; /* for IE 6 */
  }
- h1style{
-     
- }
  
  .landing-page-h1 { 
+    font-family: 'Bebas Neue', cursive;
     position: absolute; 
     top: 200px; 
     left: 0; 
     width: 100%;
     align-content: center;
     font-size:50px
-    align-items: center;
+    align-items : center;
     display: flex;
     justify-content: center; 
     color: #FCFCFC ;
  }
 
  .landing-page-p { 
+    font-family: 'Bebas Neue', cursive;
     position: absolute; 
     top: 200px; 
     left: 0; 
@@ -37,7 +33,7 @@ body {
  }
 
  .landing-page-h1of2 {
-
+    font-family: 'Bebas Neue', cursive;
     position: absolute; 
     top: 200px; 
     left: 0; 
@@ -51,3 +47,47 @@ body {
     margin-top: 60px;
 
  }
+
+.div2 {
+   
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+    color:black ;
+}
+
+.h12 {
+    text-align: center;
+}
+
+.services {
+   
+    align-items: center;
+    justify-content: center; 
+    color:black ;
+    margin-top: 60px;
+    position: relative; 
+    width: 100%; /* for IE 6 */
+
+}
+
+.box{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+}
+.box .text{
+    position: absolute;
+    z-index: 700;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 60%; /* Set the width of the positioned div */
+    color:white ;
+}
+
+img {
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
