@@ -38,6 +38,40 @@ object-fit: cover;
 .hide {
     display: none;
 }
+.container{
+	margin: inherit;
+    width: inherit;
+}
+.content {
+    color: orange;
+    text-emphasis: bold;
+    text-align: center;
+}
+#portfolio img {
+    width: 100%;
+}
+.card-deck {
+    padding: 5% 1%;
+}
+.card {
+    margin: 10px 0;
+    position: relative;
+    overflow: hidden;
+}
+.card:hover img {
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
+.card-1 {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    background: rgba(0, 0, 0, 0.582);
+    cursor: pointer;
+    display: none;
+    transition: all 0.5s ease;
+    color: orange;
+}
 .landing-page { 
     position: relative; 
     width: 100%; /* for IE 6 */
