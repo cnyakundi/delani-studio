@@ -152,6 +152,15 @@ object-fit: cover;
     background: url(./images/c_image.jpg) no-repeat;
 }
 
+.form-cont {
+    text-align: center;
+    position: relative;
+    width: 700px;
+    max-width: 100%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
 .box{
     position: relative;
     display: inline-block; /* Make the width of box same as image */
