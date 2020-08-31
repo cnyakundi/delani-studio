@@ -77,7 +77,7 @@ object-fit: cover;
     width: 100%; /* for IE 6 */
  }
  
- .landing-page-h1 { 
+.landing-page-h1 { 
     font-family: 'Bebas Neue', cursive;
     position: absolute; 
     top: 200px; 
@@ -91,7 +91,7 @@ object-fit: cover;
     color: #FCFCFC ;
  }
 
- .landing-page-p { 
+.landing-page-p { 
     font-family: 'Bebas Neue', cursive;
     position: absolute; 
     top: 200px; 
@@ -105,7 +105,7 @@ object-fit: cover;
     margin-top: 100px;
  }
 
- .landing-page-h1of2 {
+.landing-page-h1of2 {
     font-family: 'Bebas Neue', cursive;
     position: absolute; 
     top: 200px; 
@@ -120,7 +120,7 @@ object-fit: cover;
     margin-top: 60px;
 
  }
- .col-md-4{
+.col-md-4{
      text-align: center;
  }
 
