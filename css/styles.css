@@ -66,11 +66,12 @@ object-fit: cover;
     position: absolute;
     width: 100%;
     min-height: 100%;
-    background: rgba(0, 0, 0, 0.582);
+    background: rgba(0, 0, 0, 0.582) transparent;
     cursor: pointer;
     display: none;
     transition: all 0.5s ease;
     color: orange;
+
 }
 .landing-page { 
     position: relative; 
