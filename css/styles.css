@@ -35,6 +35,9 @@ height: 500px;
 object-fit: cover;
 
 }
+.hide {
+    display: none;
+}
 .landing-page { 
     position: relative; 
     width: 100%; /* for IE 6 */
