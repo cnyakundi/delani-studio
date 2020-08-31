@@ -147,6 +147,11 @@ object-fit: cover;
 
 }
 
+.cyprian {
+    height: 800px;
+    background: url(./images/c_image.jpg) no-repeat;
+}
+
 .box{
     position: relative;
     display: inline-block; /* Make the width of box same as image */
