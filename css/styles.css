@@ -43,7 +43,7 @@ object-fit: cover;
     width: inherit;
 }
 .content {
-    color: orange;
+    color: black;
     text-emphasis: bold;
     text-align: center;
 }
@@ -70,7 +70,8 @@ object-fit: cover;
     cursor: pointer;
     display: none;
     transition: all 0.5s ease;
-    color: orange;
+    color: white;
+    font-weight: bolder;
 
 }
 .landing-page { 
