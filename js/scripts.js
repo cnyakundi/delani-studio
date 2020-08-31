@@ -9,6 +9,6 @@ $('.card').hover(function () {
 
 $('button').click(function (cn) {
     var client = document.getElementById('nameDetail').nodeValue;
-    alert(' Dear ' + 'client' + 'we have successfully received your message.')
+    alert(' Dear' + ' client' + ' we have successfully received your message.')
     cn.preventDefault();
 });
