@@ -121,6 +121,21 @@ object-fit: cover;
     margin-top: 60px;
 
  }
+.part{
+     background: url(./images/h_img.jpg) no-repeat;
+     padding: 10;
+     margin: 0;
+     background-size: cover;
+     position: center;
+ }
+.text-1{
+    background: transparent;
+    text-align: center;
+    font-size-adjust: auto;
+    color: white;
+
+
+ }
 .col-md-4{
      text-align: center;
  }
@@ -164,6 +179,7 @@ object-fit: cover;
 
 .box{
     position: relative;
+    position: center;
     display: inline-block; /* Make the width of box same as image */
 }
 .box .text{
